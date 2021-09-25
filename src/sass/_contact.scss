@@ -65,8 +65,59 @@
     }
   }
 }
+@media screen and (max-width: 1200px) {
+  .contact {
+    .header {
+      padding: 1em 3em;
+    }
+    .contact-access {
+      .contact-access_wrapper {
+        div {
+          width: 20%;
+          p {
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+}
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 950px) {
+  .contact {
+    .header {
+      padding: 1em 2em;
+    }
+    .contact-access {
+      .contact-access_wrapper {
+        div {
+          width: 20%;
+          p {
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .contact {
+    .header {
+      padding: 1em 2em;
+    }
+    .contact-access {
+      .contact-access_wrapper {
+        div {
+          width: 20%;
+          p {
+            font-size: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
   .contact {
     background-color: #f5f4f4;
     .header {
