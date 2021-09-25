@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+p {
+  font-family: "Prompt", sans-serif;
+}
+h3,
+span {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+}
+a {
+  font-family: "Acme", sans-serif;
+}
+
+@import "./_home";
+@import "./_contact";

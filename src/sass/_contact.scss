@@ -1,0 +1,131 @@
+.contact {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 10em;
+    .logo {
+      h2 {
+        a {
+          color: black;
+          text-decoration: none;
+          font-family: "Rubik Beastly", cursive;
+          font-size: 1.5rem;
+          font-weight: 500;
+          margin: 0em;
+        }
+      }
+    }
+    .hamburger {
+      display: none;
+    }
+    .nav_hidden {
+      font-size: 1.2rem;
+      li {
+        display: none;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+        padding: 0.5em;
+
+        &:hover {
+          border-bottom: 2px solid black;
+        }
+      }
+    }
+  }
+  .contact-access {
+    background-color: #f5f4f4;
+    height: 100vh;
+    padding: 8em 0;
+    .contact-access_wrapper {
+      display: flex;
+      justify-content: space-between;
+      background-color: white;
+      border: 1px solid rgb(204, 204, 204);
+      margin: 0 auto;
+      padding: 5em;
+      width: 80%;
+      div {
+        width: 10%;
+        a {
+          text-decoration: none;
+          img {
+            width: 100%;
+          }
+          p {
+            text-align: center;
+            color: black;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact {
+    background-color: #f5f4f4;
+    .header {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      padding: 1em 0em;
+      .logo {
+        h2 {
+          text-align: center;
+        }
+      }
+      .hamburger {
+        display: block;
+        width: 7%;
+        margin: 0.7em auto;
+        margin-bottom: 0.5em;
+        img {
+          width: 100%;
+        }
+      }
+      .nav {
+        width: 15%;
+        margin: 0 auto;
+        li {
+          display: none;
+        }
+        a {
+          color: black;
+          text-decoration: none;
+          text-align: center;
+          display: block;
+
+          &:hover {
+            border-bottom: 2px solid black;
+          }
+        }
+      }
+      .nav_hidden {
+        display: none;
+      }
+    }
+    .contact-access {
+      padding: 1em;
+      height: 100%;
+      .contact-access_wrapper {
+        background-color: #f5f4f4;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        div {
+          background-color: white;
+          margin: 1em auto;
+          border: 1px solid rgb(196, 195, 195);
+          padding: 2em;
+          width: 60%;
+        }
+      }
+    }
+  }
+}
