@@ -201,6 +201,7 @@
       .skills-wrapper {
         grid-template-columns: repeat(2, 1fr);
         padding: 1em 0;
+        padding-left: -0.5em;
       }
     }
   }
